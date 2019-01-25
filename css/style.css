@@ -1,23 +1,20 @@
-<<<<<<< HEAD
-
-=======
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-  font-family: "Raleway", serif;
-}
+  font-family: "Raleway",serif; }
+
+.hero {
+  background-color: black; }
 
 .inventory-area {
   position: relative;
   background-color: lightgreen;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px; }
 
 .inventory-heading {
   margin: 30px 0;
@@ -26,84 +23,61 @@ body {
   padding: 0;
   left: 50%;
   transform: translateX(-50%);
-  border-bottom: 2px solid green;
-}
+  border-bottom: 2px solid green; }
 
 .inventory-area-wrapper > div {
   border: none;
-  margin: 0 40px;
-}
+  margin: 0 40px; }
 
 .inventory-area .row {
-  margin-bottom: 40px;
-}
+  margin-bottom: 40px; }
 
 .inventory-area-wrapper .card-body {
-  background: white;
-}
+  background: white; }
 
 .inventory-area-wrapper .card-body a {
   color: lightgreen;
   position: relative;
-  left: 90%;
-}
+  left: 90%; }
 
 .inventory-area-wrapper img {
   border-radius: 0;
-  height: 220px;
-}
+  height: 220px; }
 
 .footer-area {
   position: relative;
   background: #222;
   color: white;
-  padding: 40px 0;
-}
+  padding: 40px 0; }
 
 .footer-area-heading h4 {
   font-weight: 600;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .footer-area-wrapper ul {
-  list-style: none;
-}
+  list-style: none; }
 
 .footer-area-wrapper ul li {
-  padding: 5px;
-}
+  padding: 5px; }
 
 .footer-area-wrapper ul li a {
   text-decoration: none;
-  color: white;
-}
+  color: white; }
 
 .footer-area-social {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
 .footer-area-social a {
   text-decoration: none;
-  color: white;
-}
+  color: white; }
 
 .footer-area-social a i {
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
 @media (max-width: 520px) {
   .inventory-area-wrapper > div {
-    margin: 0 10px;
-  }
-
+    margin: 0 10px; }
   .inventory-area-wrapper {
-    margin-bottom: 30px;
-  }
-
+    margin-bottom: 30px; }
   .inventory-area .row {
-    margin-bottom: 0px;
-  }
-}
->>>>>>> inventory
-
-/*# sourceMappingURL=style.css.map */
+    margin-bottom: 0px; } }
