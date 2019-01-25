@@ -1,1 +1,115 @@
-//inventory page
+//inventory area
+
+.inventory-area{
+    position: relative;
+    background-color: lightgreen;
+    padding-bottom: 30px;
+}
+
+.inventory-heading {
+    margin: 30px 0;
+    // background: orangered;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid green;
+}
+.inventory-area-wrapper > div{
+    border: none;
+    // width: 350px;
+    // padding: 0 40px;
+    margin: 0 40px;
+
+}
+.inventory-area .row{
+    margin-bottom: 40px;
+}
+.inventory-area-wrapper .card{
+    // background: orange;
+    // width: 350px;
+}
+.inventory-area-wrapper .card-body{
+    background:white;
+}
+.inventory-area-wrapper .card-body a{
+    color: lightgreen;
+    position: relative;
+    left: 90%;
+}
+
+.inventory-area-wrapper img{
+    // width: 350px;
+    border-radius: 0;
+    height: 220px;
+
+}
+
+
+//footer-area
+
+.footer-area{
+    position: relative;
+    background: #222;
+    color: white;
+    padding: 40px 0;
+}
+.footer-area-heading h4{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-area-wrapper ul{
+    list-style: none;
+}
+.footer-area-wrapper ul li{
+    padding: 5px;
+}
+
+.footer-area-wrapper ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-area-social{
+    margin-top: 20px;
+
+}
+.footer-area-social a{
+    text-decoration: none;
+    color: white;
+}
+.footer-area-social a i{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 520px) {
+    .inventory-area-wrapper > div{
+        margin: 0 10px;
+    }
+    
+    .inventory-area-wrapper{
+        margin-bottom: 30px;
+    }
+
+    .inventory-area .row{
+        margin-bottom: 0px;
+    }
+  }
+  

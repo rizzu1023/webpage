@@ -1,16 +1,15 @@
-// *,
-// *::after,
-// *::before{
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: inherit;
-// }
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-// html{
-//     font-size: 10px;
-// }
+html{
+    // font-size: 10px;
+}
 
-// body{
-//     box-sizing: inherit;
-    // font-family: "Raleway",serif;
-// }
+body{
+    font-family: "Raleway",serif;
+}
