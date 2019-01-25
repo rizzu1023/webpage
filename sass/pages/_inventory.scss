@@ -26,9 +26,10 @@
 .inventory-area .row{
     margin-bottom: 40px;
 }
-.inventory-area-wrapper .card{
+.inventory-area-wrapper .card:hover{
     // background: orange;
     // width: 350px;
+    transform: scale(1.01)
 }
 .inventory-area-wrapper .card-body{
     background:white;
