@@ -11,6 +11,10 @@ body {
 .hero {
   background-color: black; }
 
+.hero {
+  background-color: black;
+}
+
 .inventory-area {
   position: relative;
   background-color: lightgreen;
@@ -31,6 +35,10 @@ body {
 
 .inventory-area .row {
   margin-bottom: 40px; }
+
+.inventory-area-wrapper .card:hover {
+  transform: scale(1.01);
+}
 
 .inventory-area-wrapper .card-body {
   background: white; }
@@ -80,4 +88,12 @@ body {
   .inventory-area-wrapper {
     margin-bottom: 30px; }
   .inventory-area .row {
+<<<<<<< HEAD
     margin-bottom: 0px; } }
+=======
+    margin-bottom: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> d89159354c78f7f42f8a794a208123a96e656658
