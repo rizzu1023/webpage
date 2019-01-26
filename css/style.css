@@ -57,6 +57,46 @@ body {
   background-color: #2E8B57;
 }
 
+.consultancy-area {
+  color: #464646;
+}
+
+.consultancy-heading {
+  margin: 30px 0;
+  display: inline-block;
+  position: relative;
+  padding: 0 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 2px solid green;
+}
+
+.section {
+  padding: 25px 0;
+  border-bottom: 1px solid #2E8B57;
+}
+
+.section h3 {
+  font-size: 35px;
+}
+
+.section > ul {
+  font-size: 27px;
+}
+
+.section ul li {
+  font-size: 25px;
+  list-style-position: inside;
+}
+
+.section p {
+  font-size: 25px;
+}
+
+.section-1 p {
+  font-size: 22px;
+}
+
 .inventory-area {
   position: relative;
   background-color: #EAFAEF;
