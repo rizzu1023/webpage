@@ -2,7 +2,7 @@
 
 .inventory-area{
     position: relative;
-    background-color: lightgreen;
+    background-color: #EAFAEF;
     padding-bottom: 30px;
 }
 
@@ -11,7 +11,7 @@
     // background: orangered;
     display: inline-block;
     position: relative;
-    padding: 0;
+    padding: 0 5px;
     left: 50%;
     transform: translateX(-50%);
     border-bottom: 2px solid green;
@@ -20,11 +20,11 @@
     border: none;
     // width: 350px;
     // padding: 0 40px;
-    margin: 0 40px;
+    margin: 0 35px;
 
 }
 .inventory-area .row{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .inventory-area-wrapper .card:hover{
     // background: orange;
@@ -34,17 +34,38 @@
 .inventory-area-wrapper .card-body{
     background:white;
 }
-.inventory-area-wrapper .card-body a{
+
+.inventory-area .call-icon{
     color: lightgreen;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 25px;
+}
+.inventory-area .anchor{
+    text-decoration: none;
+    color: black;
+}
+.inventory-area-wrapper .card{
+    width: 320px;
+    height: 470px;
     position: relative;
-    left: 90%;
 }
 
 .inventory-area-wrapper img{
     // width: 350px;
     border-radius: 0;
-    height: 220px;
+    height: 244.5px;
 
+}
+
+.inventory-area .card-body h4{
+    font-size: 23px;
+}
+
+.inventory-area .card-body p{
+    font-size: 18px;
+    color: #636363;
 }
 
 
@@ -52,39 +73,56 @@
 
 .footer-area{
     position: relative;
-    background: #222;
+    background: #464545;
     color: white;
-    padding: 40px 0;
+    padding: 70px 0 40px 0;
+    height: 476px;
 }
+
 .footer-area-heading h4{
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 .footer-area-wrapper ul{
     list-style: none;
 }
+
 .footer-area-wrapper ul li{
-    padding: 5px;
+    padding: 10px;
 }
+
 
 .footer-area-wrapper ul li a{
     text-decoration: none;
     color: white;
-    
 }
+
 .footer-area-social{
     margin-top: 20px;
 
 }
+
 .footer-area-social a{
     text-decoration: none;
     color: white;
 }
+
 .footer-area-social a i{
     margin-right: 20px;
 }
 
+.footer-area-copyright{
+    background: #2E8B57;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+}
 
+.footer-area-copyright span{
+
+}
 
 
 
