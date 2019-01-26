@@ -5,13 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Cookie|Lato:300,300i,400|Roboto:400,500,500i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Playfair+Display|Lato:300,300i,400|Roboto:300,400,500,500i,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     
 </head>
 <body>
-
+        <!-- <div class="navigation">
+                <input type="checkbox" class="navigation__checkbox" id = "navi-toggle">
+        
+                <label for="navi-toggle" class="navigation__button">
+                    <span class="navigation__icon">&nbsp;</span>
+                </label>
+        
+                <div class="navigation__background">&nbsp;</div>
+        
+                <nav class="navigation__nav">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> About Natour</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span> Your Benefits</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span> Popular tours</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span> Stories</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span> Book now</a></li>
+        
+                    </ul>
+                </nav>
+            </div> -->
     <header class="hero">
         <div class="hero__social">
             <img class="hero__social__icons" src="img/Instagram.png" alt="">
@@ -28,41 +48,119 @@
 
                     <a href="#" class="hero__container__left--btn">Reach Us</a>
                 </div>
-                <div class="col-md-6 col-sm-6 hero__container__right"></div>
+                <div class="col-md-6 hidden-sm hero__container__right">
+                    <ul class="hero__container__right--nav animated fadeInRight delay-2s">
+                       <a href="#about" > <li>About us</li> </a>
+                       <a href="#mandates"> <li>Mandates</li> </a>
+                       <a href="#assitance"> <li>Assistance</li> </a>
+                       <a href="#inventory"> <li>Inventory</li> </a>
+                       <a href="#myths"> <li>Myths</li> </a>
+                       <a href="#team"> <li>Team</li> </a>
+                       <a href="#consultancy"> <li>Consultancy</li> </a>
+
+
+                    </ul>
+                </div>
             </div>  
         </div>
 
     </header>
 
-    <section class="about_us">
-        
-        <div class="md-6 sm-6">
+    <section class="about_us " id="about">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 about_us__left">
+                <h1 class="about_us__left--title">About Us</h1>
 
-        </div>
+                <p class="about_us__left--content">
+                    “AGRILANDS" as the name suggest, is a company dealing in Agricultural Land. As we all know that buying a land is just not comparable with buying any other product but it’s a sense of achievement and at AgriLands, we truly respect such emotions and not only assist a person in acquisition process but makes it a smooth, hassle free and the most convenient event. AgriLands India Pvt. Ltd. a company known for its Reliability, Transparency & Best in Class Service, offers a person the most beneficial and highly rewarding avenues to park their surplus funds. If you are looking for Land in Maharashtra, whether it be a Land of Natural Beauty or for Farming activities such as Plantation, Nursery, Horticulture, Poultry, Dairy, Goat Farms, allied agricultural activities or for Industrial purpose such as Factory set-up, Solar Parks, MIDC Land, then Agrilands is a one stop solutions catering to all of these needs in the most convenient manner, at the best price and with utmost security.
+                </p>
+            </div>
 
-        <div class="md-6 sm-6">
+            <div class="col-lg-6 col-md-6 hidden-sm about_us__right">
 
-        </div>
-
+            </div>
+         </div>
+         </div>
     </section>
 
     <section class="mandates">
+        <div class="container">
+        <div class="row mandates__row">
+            <h1 class="mandates__title">Mandates</h1>
+        </div>
+
         <div class="row">    
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+             <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                <img src="img/p1.png" alt="" class="mandates__block--img"> 
+             <a href="#agricity"><h4 class="mandates__block--text">Agricity</h4> </a>
+            </div>
+       
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p2.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Urban Farms</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p3.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Goat Farms</h4>
+            </div>
         </div>
         <div class="row">    
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p4.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Innovative Dairies</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p5.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Nursery</h4>
+            </div> 
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p6.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Solar Farms</h4>
+            </div>
         </div>
         <div class="row">    
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p7.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Bunglewadi</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p8.png" alt=" " class="mandates__block--img">
+                    <h4 class="mandates__block--text ">Exotic Birds</h4>
+                
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 mandates__block">
+                    <img src="img/p9.png" alt="" class="mandates__block--img">
+                    <h4 class="mandates__block--text">Vegetable Farms</h4>
+            </div>
         </div>
-                    
+    </div>     
     </section>
+
+    <div class="popup" id="agricity">
+        <div class="container">
+            <div class="popup__content">
+                <div class="row">
+                    <div class="popup__left">
+                            <img src="img/p1.png" alt="Tour Photo" class="popup__img">
+                            <!-- <img src="img/p1.png" alt="Tour Photo" class="popup__img"> -->
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="popup__right">
+                            <a href="#mandates" class="popup__close">&times;</a>
+                            <h2 class="heading-secondary u-margin-bottom-medium">Agricity</h2>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minimadistinctioobcaecati doloribus, perferendis tenetur beatae. Nobis error eos accusantium magnam fuga sapiente enim asperiores repellendus, perspiciatis nihil accusamus maiores earum.sit amet consectetur adipisicing elit. Minima distinctio obcaecati doloribus, perferendis tenetur beatae. Nobis error eos accusantium magnam fuga sapiente enim asperiores repellendus, perspiciatis nihil accusamus maiores earum.
+                            </p>
+                            </div>
+                            <a href="#" class="btn btn--green">Book Now</a>
+                        </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

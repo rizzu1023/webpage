@@ -1,8 +1,15 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
 @import "base/base";
 // @import "base/typography";
 // @import "abstracts/variables";
-
+// @import "components/navigation";
 @import "pages/index";
+<<<<<<< HEAD
 @import "pages/consultancy";
+=======
+
+// @import "pages/consultancy";
+>>>>>>> 30053792c4c35555a5cfc2914650af53d6b35a7a
 @import "pages/inventory";
 // @import "pages/myths";
