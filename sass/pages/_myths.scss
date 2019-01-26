@@ -1,14 +1,16 @@
 //myths page
 .navbarmyths{
+    padding: 2rem;
+    // background: lightblue;
     &__logo{
         
         // width: 8rem;
-        margin-top: 2%;
+        // margin-top: 2%;
         height: 5rem;
     }
 
     &__menu{
-        margin-top: 2%;
+        // margin-top: 2%;
         float: right;
     }
 }

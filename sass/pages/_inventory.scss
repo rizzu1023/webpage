@@ -4,6 +4,7 @@
     position: relative;
     background-color: #EAFAEF;
     padding-bottom: 30px;
+    
 }
 
 .inventory-heading h4{
@@ -47,8 +48,12 @@
     text-decoration: none;
     color: black;
 }
+.inventory-area-wrapper{
+    padding-left: 7%;
+    padding-right: 10%;
+}
 .inventory-area-wrapper .card{
-    width: 320px;
+    width: 100%;
     height: 470px;
     position: relative;
 }
@@ -88,6 +93,7 @@
 
 .footer-area-wrapper ul{
     list-style: none;
+    position: relative;
 }
 
 .footer-area-wrapper ul li{
@@ -117,14 +123,12 @@
 .footer-area-copyright{
     background: #2E8B57;
     color: white;
-    height: 60px;
-    line-height: 60px;
+    // height: 60px;
+    // line-height: 60px;
     position: relative;
 }
 
-.footer-area-copyright span{
 
-}
 
 
 
@@ -151,6 +155,21 @@
 
     .inventory-area .row{
         margin-bottom: 0px;
+    }
+
+    .footer-logo{
+        display: none;
+    }
+    .footer-area-social{
+        background:#464545;
+        position: relative;
+        bottom: 96px;
+        padding: 23px;
+        // display: none;
+    }
+    .footer-area-copyright{
+        position: relative;
+        top: 70px;
     }
   }
   
