@@ -106,10 +106,10 @@
     
 
     &__left{
-        padding-top: 10%;
-        padding-bottom: 7%;
+        // padding-top: 10%;
+        // padding-bottom: 7%;
         background-color: rgba(255, 255, 255, 0.404);
-
+        padding: 50px;
         &--title{
             font-family: 'Playfair Display', serif;
             text-align: center;
@@ -239,4 +239,149 @@
     color: #38CB5F;
     border: 1px solid #38CB5F;
     border-radius: 5px;
+}
+
+
+
+
+// team area start
+
+.team-area-heading h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0;
+    font-size: 45px;
+    display: inline-block;
+    position: relative;
+    padding: 0 5px;
+    left: 50%;
+    margin-bottom: 60px;
+    transform: translateX(-50%);
+    border-bottom: 2px solid green;
+}
+
+.team-area{
+    position: relative;
+
+}
+
+.team-area > div{
+    padding: 100px;
+}
+
+.team-area .card{
+    border: none;
+}
+.team-area .card img{
+    border-radius: 0;
+    width: 280px;
+    height: 190px;
+}
+.team-area .card-body h4{
+    font-size: 25px;
+    color: #464646;
+}
+.team-area .card-body p{
+    color: #787878;
+    font-size: 20px;
+}
+
+.team-area .card-body a{
+    text-decoration: none;
+    color: black;
+}
+.team-area .card-body a i{
+    font-size: 23px;
+}
+.team-area .card-body .fb{
+    color: #3D5A96;
+    margin-left: 5px;
+
+}
+.team-area .card-body .ln{
+    color: #007AB7;
+    margin-right: 5px;
+}
+
+
+
+
+// contact area start
+
+
+.contact-area{
+    background: rgba(56, 203, 95, 0.2);
+    position: relative;
+}
+
+.contact-area-heading h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0;
+    font-size: 45px;
+    display: inline-block;
+    position: relative;
+    padding: 0 5px;
+    left: 50%;
+    margin-bottom: 60px;
+    transform: translateX(-50%);
+    border-bottom: 2px solid green;
+}
+
+.contact-area-wrapper section img{
+    margin-right: 25px;
+    
+}
+
+.contact-area-wrapper section{
+    margin-top: 20px;
+}
+
+.contact-area-wrapper section p{
+    display: inline-block;
+}
+
+.form-heading h4{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    padding: 0 5px;
+    left: 50%;
+    margin-bottom: 40px;
+    transform: translateX(-50%);
+    border-bottom: 2px solid green;
+}
+
+.contact-area-wrapper form{
+    padding: 0 40px;
+}
+
+.contact-area-wrapper form input{
+    width: 510px;
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.contact-area-wrapper form textarea{
+    width: 510px;
+    height: 160px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.contact-area-wrapper form button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0;
+    border: none;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #2E8B57;
+    color: white;
+    margin-top: 30px;
 }
