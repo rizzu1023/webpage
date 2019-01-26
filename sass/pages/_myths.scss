@@ -1,1 +1,49 @@
 //myths page
+.navbarmyths{
+    &__logo{
+        
+        // width: 8rem;
+        margin-top: 2%;
+        height: 5rem;
+    }
+
+    &__menu{
+        margin-top: 2%;
+        float: right;
+    }
+}
+
+.myths{
+    text-align: center;
+
+    &__title{
+
+        color: #464646;
+        border-bottom: 1px solid #2E8B57;
+        margin: 0 40%;
+        padding-bottom: 10px;
+
+    }
+    &__img{
+        background-color: #EAFAEF;
+    }
+    &__questions{
+        margin-top: 5%;
+        font-family: 'Playfair Display', serif;
+        text-align:left;
+        &--title{
+            font-weight: 400;
+            font-size:1.8rem;
+        }
+        &--content{
+            background-color: #EAFAEF;
+            font-weight: 400;
+            font-size:1.2rem;
+        }
+
+        &--img{
+            float:right;
+            width: 2rem;
+        }
+    }
+}
