@@ -5,6 +5,7 @@
     height: auto;
     background-image: url("../img/heroimg.png");
     background-repeat: no-repeat;
+    padding-bottom: 50px;
 
 
     &__social{
@@ -341,13 +342,14 @@
 
     padding-bottom: 30px;
 }
-.inventory-area-carousel > a{
-    // border-radius: 0;
-    text-decoration: none;
-    color: white;
+.button{
     position: relative;
     left: 45%;
-    transform: translateX(-50%);
+    // transform: translateX(-50%);
+}
+.inventory-area-carousel .button > a{
+    text-decoration: none;
+    color: white;
     padding: 15px 35px;
     background: #2E8B57;
     border: none;
