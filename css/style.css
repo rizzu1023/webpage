@@ -109,35 +109,35 @@ body {
 }
 .about_us__left {
   background-color: rgba(255, 255, 255, 0.404);
-  padding: 50px;
+  padding: 53px 64px;
 }
 .about_us__left--title {
   font-family: "Playfair Display", serif;
   text-align: center;
   color: #464646;
+  font-size: 45px;
+  border-bottom: 2px solid green;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 6px 0;
+}
+.about_us__left--title img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 .about_us__left--content {
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin-top: 5%;
-  font-size: 1.2rem;
+  font-size: 28px;
 }
 
 .mandates {
   text-align: center;
   background-color: #EAFAEF;
-}
-.mandates__title {
-  font-family: "Roboto", sans-serif;
-  margin: 30px 0;
-  font-size: 45px;
-  display: inline-block;
-  position: relative;
-  padding: 0 5px;
-  left: 50%;
-  margin-bottom: 60px;
-  transform: translateX(-50%);
-  border-bottom: 2px solid green;
 }
 .mandates__block {
   position: relative;
@@ -151,6 +151,29 @@ body {
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
+}
+
+.mandates__row {
+  position: relative;
+}
+
+.mandates__title {
+  font-family: "Roboto", sans-serif;
+  margin: 30px 0;
+  font-size: 45px;
+  display: inline-block;
+  position: relative;
+  padding: 0 5px;
+  left: 50%;
+  margin-bottom: 60px;
+  transform: translateX(-50%);
+  border-bottom: 2px solid green;
+}
+
+.mandates__title img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 
 .mandates div > div {
@@ -225,6 +248,10 @@ body {
   border-radius: 5px;
 }
 
+.team-area-heading {
+  position: relative;
+}
+
 .team-area-heading h4 {
   font-family: "Roboto", sans-serif;
   margin: 30px 0;
@@ -236,6 +263,12 @@ body {
   margin-bottom: 60px;
   transform: translateX(-50%);
   border-bottom: 2px solid green;
+}
+
+.team-area-heading h4 img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 
 .team-area {
@@ -325,6 +358,10 @@ body {
   bottom: 0px;
 }
 
+.contact-area-heading {
+  position: relative;
+}
+
 .contact-area-heading h4 {
   font-family: "Roboto", sans-serif;
   margin: 30px 0;
@@ -336,6 +373,12 @@ body {
   margin-bottom: 60px;
   transform: translateX(-50%);
   border-bottom: 2px solid green;
+}
+
+.contact-area-heading h4 img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 
 .contact-area-wrapper section img {
@@ -350,17 +393,27 @@ body {
   display: inline-block;
 }
 
+.form-heading {
+  position: relative;
+}
+
 .form-heading h4 {
   font-family: "Roboto", sans-serif;
   margin: 10px 0;
   font-size: 25px;
   display: inline-block;
   position: relative;
-  padding: 0 5px;
+  padding: 7px 7px;
   left: 50%;
   margin-bottom: 40px;
   transform: translateX(-50%);
   border-bottom: 2px solid green;
+}
+
+.form-heading h4 img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 
 .contact-area-wrapper form {
@@ -388,15 +441,17 @@ body {
 
 .contact-area-wrapper form button {
   position: relative;
+  font-family: "Lato medium", "sans-serif";
   left: 50%;
   transform: translateX(-50%);
   border-radius: 0;
   border: none;
   text-decoration: none;
-  padding: 10px 25px;
+  padding: 14px 44px;
   background: #2E8B57;
   color: white;
   margin-top: 30px;
+  font-size: 22px;
 }
 
 @media (max-width: 520px) {
@@ -416,11 +471,10 @@ body {
   font-family: "Roboto";
   height: 100vh;
   width: 100vw;
-  position: fixed;
+  position: relative;
   background-color: #2E8B57;
   z-index: 2000;
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 .navigation__list {
   position: absolute;
@@ -459,13 +513,26 @@ body {
 }
 
 .consultancy-heading {
+  position: relative;
+}
+
+.consultancy-heading h4 {
+  font-family: "Roboto", sans-serif;
   margin: 30px 0;
+  font-size: 45px;
   display: inline-block;
   position: relative;
   padding: 0 5px;
   left: 50%;
   transform: translateX(-50%);
   border-bottom: 2px solid green;
+  margin-bottom: 60px;
+}
+
+.consultancy-heading h4 img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 
 .section {
@@ -500,6 +567,28 @@ body {
   font-style: italic;
 }
 
+@media (max-width: 520px) {
+  .section h3 {
+    font-size: 25px;
+  }
+
+  .section > ul {
+    font-size: 17px;
+  }
+
+  .section ul li {
+    font-size: 15px;
+    list-style-position: inside;
+  }
+
+  .section p {
+    font-size: 15px;
+  }
+
+  .section-1 p {
+    font-size: 12px;
+  }
+}
 .navbarmyths {
   padding: 2rem;
 }
@@ -541,13 +630,40 @@ body {
   width: 2rem;
 }
 
+.bg1 {
+  background: White;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-clip-path: ellipse(34% 15% at 24% 100%);
+  clip-path: ellipse(34% 15% at 24% 100%);
+  z-index: 99;
+  bottom: 225.5px;
+  border-bottom: 1px solid brown;
+}
+
+.bg1-heading {
+  position: absolute;
+  transform: translateY(-110%);
+  z-index: 101;
+  left: 10px;
+  font-size: 35px;
+  font-family: "Playfair Display";
+  color: #464646;
+}
+
 .inventory-area {
   position: relative;
   background-color: #EAFAEF;
   padding-bottom: 30px;
 }
 
+.inventory-heading {
+  position: relative;
+}
+
 .inventory-heading h4 {
+  font-family: "Roboto", sans-serif;
   margin: 30px 0;
   font-size: 45px;
   display: inline-block;
@@ -557,6 +673,12 @@ body {
   transform: translateX(-50%);
   border-bottom: 2px solid green;
   margin-bottom: 60px;
+}
+
+.inventory-heading h4 img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
 }
 
 .inventory-area-wrapper > div {
@@ -574,6 +696,19 @@ body {
 
 .inventory-area-wrapper .card-body {
   background: white;
+}
+
+.inventory-area-wrapper .card-body h4 {
+  font-family: "Playfair Display";
+  font-size: 23px;
+  color: #636363;
+}
+
+.inventory-area-wrapper .card-body p {
+  font-family: "Lato", "sans-serif";
+  font-weight: 300;
+  font-size: 18px;
+  color: #636363;
 }
 
 .inventory-area .call-icon {
@@ -657,6 +792,8 @@ body {
 .footer-area-copyright {
   background: #2E8B57;
   color: white;
+  height: 60px;
+  line-height: 60px;
   position: relative;
 }
 

@@ -124,18 +124,30 @@
         // padding-top: 10%;
         // padding-bottom: 7%;
         background-color: rgba(255, 255, 255, 0.404);
-        padding: 50px;
+        padding: 53px 64px;
         &--title{
             font-family: 'Playfair Display', serif;
             text-align: center;
             color:#464646;
+            font-size: 45px;
+            border-bottom: 2px solid green;
+            display: inline-block;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 6px 0;
+            & img{
+                position: absolute;
+                left: 50%;
+                bottom: -4px;
+            }
         }
 
         &--content{
             font-family: 'Roboto', sans-serif;
             text-align: center;
             margin-top: 5%;
-            font-size: 1.2rem;
+            font-size: 28px;
         }
     }
 
@@ -152,16 +164,7 @@
     }
 
     &__title{
-        font-family: 'Roboto', sans-serif;
-        margin: 30px 0;
-        font-size: 45px;
-        display: inline-block;
-        position: relative;
-        padding: 0 5px;
-        left: 50%;
-        margin-bottom: 60px;
-        transform: translateX(-50%);
-        border-bottom: 2px solid green;
+        
     }
 
     &__block{
@@ -178,6 +181,27 @@
           
        }
     }
+}
+.mandates__row{
+    position: relative;
+}
+
+.mandates__title{
+        font-family: 'Roboto', sans-serif;
+        margin: 30px 0;
+        font-size: 45px;
+        display: inline-block;
+        position: relative;
+        padding: 0 5px;
+        left: 50%;
+        margin-bottom: 60px;
+        transform: translateX(-50%);
+        border-bottom: 2px solid green;
+}
+.mandates__title img{
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
 }
 
 .mandates div > div{
@@ -269,6 +293,9 @@
 
 
 // team area start
+.team-area-heading{
+    position: relative;
+}
 
 .team-area-heading h4{
     font-family: 'Roboto', sans-serif;
@@ -281,6 +308,11 @@
     margin-bottom: 60px;
     transform: translateX(-50%);
     border-bottom: 2px solid green;
+}
+.team-area-heading h4 img{
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
 }
 
 .team-area{
@@ -371,6 +403,9 @@
     position: absolute;
     bottom: 0px;
 }
+.contact-area-heading{
+    position: relative;
+}
 .contact-area-heading h4{
     font-family: 'Roboto', sans-serif;
     margin: 30px 0;
@@ -382,6 +417,11 @@
     margin-bottom: 60px;
     transform: translateX(-50%);
     border-bottom: 2px solid green;
+}
+.contact-area-heading h4 img{
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
 }
 
 .contact-area-wrapper section img{
@@ -396,6 +436,9 @@
 .contact-area-wrapper section p{
     display: inline-block;
 }
+.form-heading{
+    position: relative;
+}
 
 .form-heading h4{
     font-family: 'Roboto', sans-serif;
@@ -403,11 +446,16 @@
     font-size: 25px;
     display: inline-block;
     position: relative;
-    padding: 0 5px;
+    padding: 7px 7px;
     left: 50%;
     margin-bottom: 40px;
     transform: translateX(-50%);
     border-bottom: 2px solid green;
+}
+.form-heading h4 img{
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
 }
 
 .contact-area-wrapper form{
@@ -436,15 +484,17 @@
 
 .contact-area-wrapper form button{
     position: relative;
+    font-family: 'Lato medium','sans-serif';
     left: 50%;
     transform: translateX(-50%);
     border-radius: 0;
     border: none;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 14px 44px;
     background: #2E8B57;
     color: white;
     margin-top: 30px;
+    font-size: 22px;
 }
 
 @media (max-width:520px){
@@ -464,11 +514,12 @@
     font-family: 'Roboto';
     height: 100vh;
     width: 100vw;
-    position: fixed;
+    position: relative;
     background-color: #2E8B57;
     z-index: 2000;
-    opacity: 0;
-    visibility: hidden;
+    // opacity: 0;
+    // visibility: hidden;
+    display: none;
 
     &__list{
         @include centered;
