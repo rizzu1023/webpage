@@ -17,6 +17,8 @@
             float:right;
             width: 2rem;
             z-index:2500;
+            position: relative;
+            top: 5px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -157,6 +159,7 @@
 .mandates{
     text-align: center;
     background-color: #EAFAEF;
+    padding-bottom: 40px;
 
     &__row{
        
@@ -164,7 +167,21 @@
     }
 
     &__title{
-        
+        font-family: 'Roboto', sans-serif;
+        margin: 30px 0;
+        font-size: 45px;
+        display: inline-block;
+        position: relative;
+        padding: 0 5px;
+        left: 50%;
+        margin-bottom: 60px;
+        transform: translateX(-50%);
+        border-bottom: 2px solid green;
+    & img{
+        position: absolute;
+        left: 50%;
+        bottom: -4px;
+    }
     }
 
     &__block{
@@ -176,8 +193,11 @@
            color: #fff;
            position: absolute;
            top: 50%;
-           left: 55%;
+           left: 50%;
            transform: translate(-50%,-50%);
+           font-family: 'Lato';
+           font-size: 32px;
+           text-shadow: 0px 1px 6px #000;
           
        }
     }
@@ -186,23 +206,7 @@
     position: relative;
 }
 
-.mandates__title{
-        font-family: 'Roboto', sans-serif;
-        margin: 30px 0;
-        font-size: 45px;
-        display: inline-block;
-        position: relative;
-        padding: 0 5px;
-        left: 50%;
-        margin-bottom: 60px;
-        transform: translateX(-50%);
-        border-bottom: 2px solid green;
-}
-.mandates__title img{
-    position: absolute;
-    left: 50%;
-    bottom: -4px;
-}
+
 
 .mandates div > div{
     margin-bottom: 15px;
@@ -372,23 +376,29 @@
     // height: 800px;
     background-color: #EAFAEF;
 
-    padding-bottom: 30px;
+    padding-bottom: 90px;
 }
 .button{
     position: relative;
-    left: 45%;
-    // transform: translateX(-50%);
+    left: 50%;
+    display: inline-block;
+    transform: translateX(-50%);
 }
 .inventory-area-carousel .button > a{
     text-decoration: none;
     color: white;
-    padding: 15px 35px;
+    font-size: 30px;
+    padding: 12px 22px;
     background: #2E8B57;
     border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
 }
-.inventory-area-carousel > a:hover{
+.inventory-area-carousel .button > a:hover{
     background: white;
     color: #2E8B56;
+    border: 1px solid #2E8B56;
+
 }
 
 // contact area start
@@ -402,6 +412,7 @@
 .contact-area > img{
     position: absolute;
     bottom: 0px;
+    width: 100vw;
 }
 .contact-area-heading{
     position: relative;
@@ -424,17 +435,27 @@
     bottom: -4px;
 }
 
-.contact-area-wrapper section img{
+.contact-area-wrapper img{
     margin-right: 25px;
-    
-}
-
-.contact-area-wrapper section{
-    margin-top: 20px;
-}
-
-.contact-area-wrapper section p{
     display: inline-block;
+}
+
+.contact-area-wrapper span{
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+.contact-area-wrapper span{
+    font-size: 22px;
+    font-family: 'Roboto';
+}
+.contact-area-wrapper p{
+    font-size: 22px;
+    font-family: 'Roboto';
+    display: inline-block;
+    position: relative;
+    top: 20px;
 }
 .form-heading{
     position: relative;
@@ -496,6 +517,11 @@
     margin-top: 30px;
     font-size: 22px;
 }
+.contact-area-wrapper form button:hover{
+    background: white;
+    color: #2E8B56;
+    border: 1px solid #2E8B56;
+}
 
 @media (max-width:520px){
     .contact-area-wrapper > img{
@@ -507,13 +533,16 @@
     .contact-area-wrapper form{
         padding: 0 ;
     }
+.contact-area-wrapper .icons{
+    width: 30px;
+}
 }
 // navigation starts
 
 .navigation{
     font-family: 'Roboto';
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-color: #2E8B57;
     z-index: 2000;
