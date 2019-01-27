@@ -567,5 +567,13 @@
         visibility: visible;
     }
 }
-
+.navigation-hide{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.navigation-hide i{
+    font-size: 45px;
+    color: white; 
+}
 
