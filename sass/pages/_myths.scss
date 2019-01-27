@@ -37,25 +37,44 @@
         }
     }
     &__img{
-        background-color: #EAFAEF;
+        // background-color: #EAFAEF;
+        border: 1px solid #eafaea;
+        & img{
+            width: 100%;
+        }
+        
     }
     &__questions{
         margin-top: 5%;
         font-family: 'Playfair Display', serif;
         text-align:left;
+        color: #464646;
         &--title{
             font-weight: 400;
-            font-size:1.8rem;
+            font-size:35px;
+            border-bottom: 1px solid #707070;
+            padding: 15px 30px 28px 19px;
         }
         &--content{
-            background-color: #EAFAEF;
+            background: rgba(56, 203, 95, 0.1);
             font-weight: 400;
-            font-size:1.2rem;
+            font-size:25px;
+            padding: 22px 28.5px;
         }
 
         &--img{
             float:right;
-            width: 2rem;
+            width: 38px;
+            height: 25px;
         }
+    }
+}
+
+@media (max-width:520px){
+    .myths__questions--title{
+        font-size: 22px;
+    }
+    .myths__questions--content{
+        font-size: 15px;
     }
 }
