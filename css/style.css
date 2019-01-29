@@ -357,6 +357,113 @@ body {
   border: 1px solid #2E8B56;
 }
 
+.assistance-area-heading {
+  position: relative;
+}
+
+.assistance-area-heading h4 {
+  font-family: "Playfair Display", sans-serif;
+  margin: 30px 0;
+  font-size: 45px;
+  display: inline-block;
+  position: relative;
+  padding: 0 5px;
+  left: 50%;
+  margin-bottom: 60px;
+  transform: translateX(-50%);
+  color: #464646;
+  border-bottom: 2px solid green;
+}
+
+.assistance-area-heading h4 img {
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+}
+
+.assistance-area div > img {
+  width: 100%;
+}
+
+.assistance-area-wrapper {
+  height: 710px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 120px 40px 120px 0;
+}
+
+.left-wrapper div {
+  text-align: right;
+  font-family: "Roboto";
+  color: white;
+  text-shadow: 0 3px 10px #464646;
+}
+
+.gradiant {
+  width: 100vw;
+}
+
+.left-wrapper div:nth-child(1) {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.left-wrapper div:nth-child(7) {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.left-wrapper div:nth-child(2) {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.left-wrapper div:nth-child(6) {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.left-wrapper div:nth-child(3) {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.left-wrapper div:nth-child(5) {
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.left-wrapper div:nth-child(4) {
+  font-size: 40px;
+  color: #8B231D;
+  text-shadow: 0 3px 10px #8B231D;
+}
+
+.assistance-content ul {
+  animation: myframe 1.5s ease-in-out;
+}
+
+@keyframes myframe {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.right-wrapper {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: white;
+  padding: 167px 0 0 95px;
+  border-left: 13px solid rgba(255, 255, 255, 0.9);
+}
+
+.assistance-content ul li {
+  margin-top: 20px;
+}
+
 .contact-area {
   background: rgba(56, 203, 95, 0.2);
   position: relative;
@@ -366,7 +473,7 @@ body {
 .contact-area > img {
   position: absolute;
   bottom: 0px;
-  width: 100vw;
+  width: 98vw;
 }
 
 .contact-area-heading {

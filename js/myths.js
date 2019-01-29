@@ -50,17 +50,17 @@ $(document).ready(function(){
 
     
 
-    function border_show(src,tag){
+    function border_show(src,index){
         // x = document.getElementsByClassName('myths__questions--titile');
         x = $('.myths__questions--title');
         style= window.getComputedStyle(x[0],null);
         border = style.getPropertyValue('border-bottom');
         if( src === 'img/down.svg'){
-            x[tag].style.borderBottom = "1px solid #707070";
+            x[index].style.borderBottom = "1px solid #707070";7
 
         }
         else{
-            x[tag].style.borderBottom = "none";
+            x[index].style.borderBottom = "none";
             
         }
     }
